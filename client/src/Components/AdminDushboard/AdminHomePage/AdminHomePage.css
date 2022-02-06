@@ -1,0 +1,143 @@
+.Info{
+    width: 100%;
+    margin-left: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.InfoItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px -1px 11px -1px #000000;
+}
+
+.InfoTitle{
+    font-size: 20px;
+}
+
+.InfoContainer{ 
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+}
+
+.InfoNumber{
+    margin:10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.IconStyle{
+width: 180px;
+height: 60px;
+   
+}
+
+.WidgetHome{
+    margin-left:85px;
+     display: flex;
+}
+.WidgetSm{
+    flex:1;
+    padding: 30px;
+    margin:20px 0 0 50px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.WidgeSmtTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.WidgetSmImg{
+    font:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.WidgetSmList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.WidgetSmListItems{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 20px 0; 
+}
+
+.WidgetSmTeacher{
+    display: flex;
+    flex-direction: column;
+}
+
+.WidgetSmTeacherName{
+    font-weight: 600;
+}
+
+.WidgetSmTeacherSubject{
+    font-weight: 300;
+}
+
+.WidgetSmButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.WidgetsmIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
+.WidgetLm{
+    flex:2;
+    padding: 20px;
+    margin:20px 0 0 50px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.WidgetLmTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.WidgetLmTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.WidgetLmTh{
+    text-align: left;
+}
+
+.WidgetLgStd{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.WidgetLmImg{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.WidgetLmGrade,.WidgetLmSubject,.WidgetLmHours{
+font-weight: 300;
+}

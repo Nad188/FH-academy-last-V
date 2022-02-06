@@ -1,0 +1,148 @@
+.Course {
+    padding: 20px;
+  }
+  
+  .CourseNameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .CourseAddbutton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .CourseContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .CourseShow {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .CourseUpdate {
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .CourseShowtop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .CoursePicSty {
+  width: 40px;
+  height: 40px ;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+  
+  .CourseShowTopTitle{
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+  }
+  
+  .CourseShowTeacherName{
+      font-weight: 600;
+  }
+  
+  .CourseShowTeacherSubject{
+      font-weight: 300;
+  }
+  .CourseShowBottom{
+    margin-top: 20px;
+  }
+  
+  .CourseShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175,170,170);
+  }
+  
+  .CourseShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .CourseShowIcon{
+    font-size: 16px !important;
+  }
+  
+  .CourseShowInfoTitle{
+    margin-left: 10px;
+  }
+  
+  .CourseUpdatePic{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .CourseUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .CourseUdpateTitle{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .CourseUpdateItems{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .CourseUpdateItems>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .CourseUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .CourseUpdateRight{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .CourseUpdateUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .CourseupdateIcon{
+    cursor: pointer;
+  }
+  
+  .CourseUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+  }

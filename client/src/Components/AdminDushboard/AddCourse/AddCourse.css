@@ -1,0 +1,48 @@
+.newCourse{
+    margin-left: 260px;
+}
+
+.newCourseForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newCourseItems{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newCourseItems>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150)
+}
+
+.newCourseItems>input{
+    height: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newCourseGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newCourseButton{
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
